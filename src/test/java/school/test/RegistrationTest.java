@@ -151,6 +151,8 @@ public class RegistrationTest {
         assertEquals("First name is required.", driver.findElement(By.id("customer.firstName.errors")).getText());
         assertEquals("Password confirmation is required.", driver.findElement(By.id("repeatedPassword.errors")).getText());
 
+        System.out.println("Hello world");
+
     }
 }
 
